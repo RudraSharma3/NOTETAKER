@@ -1,0 +1,160 @@
+{
+  "NER": {
+    "raw_keywords": {
+      "Diagnosis": [
+        "whiplash"
+      ],
+      "Treatment": [
+        "physiotherapy",
+        "physio",
+        "painkillers",
+        "x-ray"
+      ],
+      "Symptoms": [
+        "back pain",
+        "stiffness"
+      ],
+      "Prognosis": [
+        "full recovery",
+        "recovery",
+        "expect you to make a full recovery"
+      ]
+    },
+    "entities": [
+      {
+        "text": "Good morning",
+        "label": "TIME"
+      },
+      {
+        "text": "Jones",
+        "label": "PERSON"
+      },
+      {
+        "text": "today",
+        "label": "DATE"
+      },
+      {
+        "text": "Good morning",
+        "label": "TIME"
+      },
+      {
+        "text": "last September",
+        "label": "DATE"
+      },
+      {
+        "text": "September 1st",
+        "label": "DATE"
+      },
+      {
+        "text": "around 12:30",
+        "label": "TIME"
+      },
+      {
+        "text": "Cheadle Hulme",
+        "label": "PERSON"
+      },
+      {
+        "text": "Manchester",
+        "label": "PERSON"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "The first four weeks",
+        "label": "DATE"
+      },
+      {
+        "text": "ten",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "a week",
+        "label": "DATE"
+      },
+      {
+        "text": "\u2019s",
+        "label": "GPE"
+      },
+      {
+        "text": "six months",
+        "label": "DATE"
+      },
+      {
+        "text": "Jones",
+        "label": "PERSON"
+      }
+    ],
+    "Patient_Name": "Jones",
+    "Symptoms": [
+      "back pain",
+      "stiffness"
+    ],
+    "Diagnosis": "whiplash",
+    "Treatment": [
+      "painkillers",
+      "x-ray",
+      "physiotherapy",
+      "physio"
+    ],
+    "Prognosis": [
+      "full recovery",
+      "recovery",
+      "expect you to make a full recovery"
+    ],
+    "Dates": [
+      "today",
+      "last September",
+      "September 1st",
+      "The first four weeks",
+      "a week",
+      "six months"
+    ]
+  },
+  "Keywords": [
+    "[** physical examination conducted **]",
+    "full recovery within six months",
+    "back almost right away",
+    "car accident last september",
+    "seek medical attention",
+    "get occasional backaches",
+    "experience worsening symptoms",
+    "** physician :**",
+    "** physician :**",
+    "** physician :**"
+  ],
+  "Summary": "> > > **Physician:** *Good morning, Ms. Jones. I\u2019m doing better, but I still have some discomfort now and then. > > > **Physician:** *Yes, it was on September 1st, around 12:30 in the afternoon. > > > **Physician:** *That sounds like a strong impact.",
+  "Sentiment": {
+    "raw_label": "Positive",
+    "mapped_sentiment": "Reassured",
+    "scores": [
+      0.2518787980079651,
+      0.7481212019920349
+    ]
+  },
+  "Intent": "Neutral/No specific intent",
+  "SOAP": {
+    "Subjective": {
+      "Chief_Complaint": "back pain, stiffness",
+      "History_of_Present_Illness": "> > > **Physician:** *Good morning, Ms. Jones. I\u2019m doing better, but I still have some discomfort now and then. > > > **Physician:** *Yes, it was on September 1st, around 12:30 in the afternoon. > > > **Physician:** *That sounds like a strong impact."
+    },
+    "Objective": {
+      "Physical_Exam": "No structured physical exam text found in transcript.",
+      "Observations": null
+    },
+    "Assessment": {
+      "Diagnosis": "whiplash",
+      "Severity": "Not specified"
+    },
+    "Plan": {
+      "Treatment": [
+        "painkillers",
+        "x-ray",
+        "physiotherapy",
+        "physio"
+      ],
+      "Follow_Up": "Return if symptoms worsen or persist beyond expected recovery"
+    }
+  }
+}
