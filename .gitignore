@@ -65,3 +65,11 @@ venv311/
 .env/
 __pycache__/
 *.pyc
+
+venv*/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env/
