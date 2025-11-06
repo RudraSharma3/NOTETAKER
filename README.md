@@ -1,10 +1,20 @@
-# Physician Notetaker — Demo
+# Medical NLP Pipeline
 
-## Setup
-1. python -m venv venv && source venv/bin/activate
-2. pip install -r requirements.txt
-3. (Optional) python -m spacy download en_core_web_sm
-4. Put transcript in sample_inputs/transcript.txt
-5. python run_demo.py
+## How to Run
+1. Create virtual environment
+python -m venv venv
+venv\Scripts\activate (Windows)
+source venv/bin/activate (Mac/Linux)
+2. Install dependencies
+pip install -r requirements.txt
+3. Run the demo
+python run_demo.py
+4. Input file: `sample_input/transcript.txt`
+5. Output file: `sample_output/output.json`
 
-Outputs saved to sample_outputs/result.json
+## Folder Structure
+(Then paste the structure above)
+
+## Team / Author
+Himanshu Bhagwani  
+B.Tech CSE (CCVT) – UPES Dehradun
