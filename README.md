@@ -16,5 +16,5 @@ python run_demo.py
 (Then paste the structure above)
 
 ## Team / Author
-Himanshu Bhagwani  
-B.Tech CSE (CCVT) – UPES Dehradun
+Rudra Sharma  
+B.Tech CSE (AIML) – UPES Dehradun
